@@ -1,0 +1,27 @@
+{
+  "name": "genpark-vercel-ai-sdk-tool-caller-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Vercel AI SDK tool call validator.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "vercel",
+    "ai-sdk",
+    "tools"
+  ],
+  "inputs": {
+    "tool_arguments": {
+      "type": "string"
+    },
+    "schema_keys": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "is_valid": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
